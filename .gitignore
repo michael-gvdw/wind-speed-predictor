@@ -3,6 +3,7 @@
 
 # Notebooks
 notebooks/
+notebooks/DataDownload.ipynb
 
 
 # Byte-compiled / optimized / DLL files
