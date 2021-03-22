@@ -3,7 +3,7 @@
 
 # Notebooks
 notebooks/*
-notebooks/DataDownload.ipynb
+notebooks/EDA.ipynb
 
 
 # Byte-compiled / optimized / DLL files
