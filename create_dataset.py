@@ -1,5 +1,11 @@
+import numpy as np
 import pandas as pd
+from sklearn.model_selection import train_test_split
+
 from config import Config
+
+Config.ORIGINAL_DATASET_FILE_PATH.parent.mkdir(parents=True, exist_ok=True)
+Config.DATASET_PATH.mkdir(parents=True, exist_ok=True)
 
 # load dataset into pandas dataframe
 df = pd.read_csv("https://cdn.knmi.nl/knmi/map/page/klimatologie/gegevens/daggegevens/etmgeg_269.zip",
@@ -13,3 +19,4 @@ df = df.astype('int')
 
 # save in directory
 df.to_csv(str(Config.ORIGINAL_DATASET_FILE_PATH), index=False, mode='w')
+
