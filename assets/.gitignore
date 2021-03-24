@@ -1,5 +1,5 @@
-data/
-original_dataset/
-features/
-models/
+data/*.csv
+original_dataset/*.csv
+features/*.csv
+models/*.pickle
 pip
