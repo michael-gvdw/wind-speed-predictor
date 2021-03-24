@@ -1,5 +1,0 @@
-[core]
-    remote = localremote
-    analytics = false
-['remote "localremote"']
-    url = C:/Users/micha/AppData/Local/Temp/dvc-storage
