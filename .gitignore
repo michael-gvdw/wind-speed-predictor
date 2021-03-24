@@ -5,6 +5,9 @@
 notebooks/*
 notebooks/EDA.ipynb
 
+# vs code
+.vscode
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
