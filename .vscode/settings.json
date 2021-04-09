@@ -1,3 +1,4 @@
 {
-    "jupyter.jupyterServerType": "remote"
+    "jupyter.jupyterServerType": "local",
+    "python.pythonPath": "C:\\Users\\micha\\Documents\\Semester 4\\wind-speed-predictor\\.venv\\python.exe"
 }
