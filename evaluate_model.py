@@ -20,3 +20,9 @@ df_score['yhat'] = df_future['yhat']
 
 print(df_score.tail())
 
+
+mean_squared_error = metrics.mean_squared_error(df_score['y'], df_score['yhat'])
+print(f'Mean Squared Error: {mean_squared_error}')
+
+r2_score = metrics.r2_score(df_score['y'], df_score['yhat'])
+print(f'R2 Score: {r2_score}')
