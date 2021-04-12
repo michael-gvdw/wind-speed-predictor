@@ -1,3 +1,5 @@
+import pickle
+
 import pandas as pd
 
 from sklearn.preprocessing import LabelEncoder
@@ -77,6 +79,8 @@ future_wind['MeanPress'] = forecast_pressure['yhat']
 future_wind['PotEvap'] = forecast_evaporation['yhat']
 
 forecast_wind = m_wind.predict(future_wind)
+
+pickle.dump(m_wind, open('./assets/models/prophet.pickle', mode='wb'))
 
 # save wind speed forecast
 forecast_wind.to_csv('./assets/predictions/wind_forecast.csv', index=False, mode='w')

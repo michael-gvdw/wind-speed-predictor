@@ -1,0 +1,4 @@
+outs:
+- md5: 7c59eeeb8792c0ee7007bdb4c00a1926
+  size: 2597336
+  path: prophet.pickle
