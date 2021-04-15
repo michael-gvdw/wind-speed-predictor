@@ -67,6 +67,10 @@ columns_div = ['MeanWind', 'MaxWind', 'MaxWindHour', 'MinWind',
 
 df[columns_div] = df[columns_div] / 10  
 
+df = df.loc[(df['YYYYMMDD'] < '2021-01-01')]
+
+print(df.tail())
+
 # save in directory
 df.to_csv(str(Config.ORIGINAL_DATASET_FILE_PATH), index=False, mode='w')
 

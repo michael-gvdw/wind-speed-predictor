@@ -1,4 +1,4 @@
 outs:
-- md5: b5ceae4ceb9f7e7de72e574e7f03d8db
-  size: 6600171
+- md5: 386aaa9c4c9f9cd6b15cce1b5e23226e
+  size: 7004646
   path: wind_forecast.csv
